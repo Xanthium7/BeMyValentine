@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <div className=" flex justify-center items-center mr-2">
         <Image
-          className="h1 object-cover object-top lg:max-h-[300px] max-h-[210px] w-[500px]"
+          className="h1 object-cover object-top lg:max-h-[300px] max-h-[220px] w-[500px]"
           src={"/giphy.gif"}
           width={100}
           height={100}
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       <Image
-        className="h1 absolute lg:h-[30rem] md:h-[22rem] h-[20rem] pl-10 lg:p-0 w-auto  bottom-[-4rem] "
+        className="h1 absolute lg:h-[550px] md:h-[300rpx] h-[300px] pl-10 lg:p-0 w-auto bottom-[-50px] lg:bottom-[-100px] "
         src={"/gutts.png"}
         width={210}
         height={210}
