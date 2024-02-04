@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       <Image
-        className="h1 absolute lg:h-[550px] md:h-[300rpx] h-[300px] pl-10 lg:p-0 w-auto bottom-[-50px] lg:bottom-[-100px] "
+        className="h1 absolute lg:h-[550px] md:h-[300px] h-[200px] pl-20 lg:p-0 w-auto bottom-[-50px] lg:bottom-[-100px] "
         src={"/gutts.png"}
         width={210}
         height={210}
