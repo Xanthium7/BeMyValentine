@@ -28,14 +28,14 @@ export default function Home() {
       </div>
       <div className=" flex justify-center items-center mr-2">
         <Image
-          className="h1 object-cover object-top max-h-[300px] w-[500px]"
+          className="h1 object-cover object-top lg:max-h-[300px] max-h-[210px] w-[500px]"
           src={"/giphy.gif"}
           width={100}
           height={100}
         ></Image>
       </div>
 
-      <div className="Buttons flex justify-center gap-10 mt-10">
+      <div className="Buttons flex justify-center gap-10 mt-10  mx-5">
         <Link
           href=""
           className="flex justify-center items-center bg-red-400 h-16 w-auto px-3 rounded-md hover:animate-wiggle  "
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       <Image
-        className="h1 absolute h-[30rem] w-auto  bottom-[-4rem] "
+        className="h1 absolute lg:h-[30rem] h-[20rem] pl-10 lg:p-0 w-auto  bottom-[-4rem] "
         src={"/gutts.png"}
         width={210}
         height={210}
