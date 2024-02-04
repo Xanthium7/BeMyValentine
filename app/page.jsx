@@ -11,7 +11,7 @@ export default function Home() {
     "U know this isnt a choice right?..",
   ];
   return (
-    <main className="">
+    <main className=" w-[100vw]">
       <div className="flex justify-between ml-2">
         <Image
           className="h1 object-cover "
@@ -94,7 +94,7 @@ export default function Home() {
       </div>
 
       <Image
-        className="h1 absolute lg:h-[30rem] h-[20rem] pl-10 lg:p-0 w-auto  bottom-[-4rem] "
+        className="h1 absolute lg:h-[30rem] md:h-[22rem] h-[20rem] pl-10 lg:p-0 w-auto  bottom-[-4rem] "
         src={"/gutts.png"}
         width={210}
         height={210}

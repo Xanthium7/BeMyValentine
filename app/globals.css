@@ -5,6 +5,7 @@
 main {
   height: 100vh;
   background: linear-gradient(to bottom right, rgb(253, 141, 225), rgb(255, 255, 171));
+  overflow: hidden;
 }
 
 body {
